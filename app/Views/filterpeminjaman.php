@@ -14,7 +14,7 @@
                                         <div class="card-content">
                                             <div class="card-body">
                                                 <form class="form-horizontal form-label-left" novalidate action="<?php if ($kunci == 'print_in') {
-                                                    echo base_url('home/print_in');
+                                                    echo base_url('home/print_peminjaman');
                                                 } ?>" method="post">
                                                     <div class="form-body">
                                                         <div class="row">
@@ -59,7 +59,7 @@
                                         <div class="card-content">
                                             <div class="card-body">
                                                 <form class="form-horizontal form-label-left" novalidate action="<?php if ($kunci == 'print_in') {
-                                                    echo base_url('/home/pdf_in');
+                                                    echo base_url('/home/pdf_peminjaman');
                                                 } ?>" method="post">
                                                     <div class="form-body">
                                                         <div class="row">
@@ -104,7 +104,7 @@
                                         <div class="card-content">
                                             <div class="card-body">
                                                 <form class="form-horizontal form-label-left" novalidate action="<?php if ($kunci == 'print_in') {
-                                                    echo base_url('home/excel_in');
+                                                    echo base_url('home/excel_peminjaman');
                                                 } ?>" method="post">
                                                     <div class="form-body">
                                                         <div class="row">

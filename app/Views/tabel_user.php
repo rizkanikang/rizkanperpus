@@ -11,10 +11,11 @@
                             <table class="table table-striped table-bordered zero-configuration">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
+                                        <th>No</th>
                                         <th>Username</th>
                                         <th>Password</th>
                                         <th>Email</th>
+                                        <th>NoTelepon</th>
                                         <th>Level</th>
                                         <th>Created At</th>
                                         <th>Updated At</th>
@@ -37,6 +38,9 @@
                                         </td>
                                         <td>
                                             <?php echo $k->email ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $k->nohp ?>
                                         </td>
                                         <td>
                                             <?php echo $k->nama_level ?>

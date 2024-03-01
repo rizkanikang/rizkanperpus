@@ -32,6 +32,15 @@
                                         <input type="email" class="form-control" required name="email"
                                             placeholder="Masukkan email..">
                                     </div>
+
+                                    <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-nohp">NoTelepon <span
+                                            class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="nohp" class="form-control" required name="nohp"
+                                            placeholder="Masukkan nohp..">
+                                    </div>
                                 </div>
                         </div>
                         <div class="form-group row">

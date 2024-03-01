@@ -68,6 +68,7 @@ class Home extends BaseController
             session()->set('id', $cek['id_user']);
             session()->set('username', $cek['username']);
             session()->set('email', $cek['email']);
+            session()->set('nohp', $cek['nohp']);
             session()->set('level', $cek['level']);
             return redirect()->to('/home/dashboard');
         } else {
@@ -348,12 +349,14 @@ class Home extends BaseController
         $password = $this->request->getPost('password');
         $nama = $this->request->getPost('nama');
         $email = $this->request->getPost('email');
+        $nohp = $this->request->getPost('nohp');
         $level = $this->request->getPost('level');
 
         $user = array(
             'username' => $username,
             'password' => md5('password'),
             'email' => $email,
+            'nohp' => $nohp,
             'level' => '3',
             'created_at' => date('Y-m-d H:i:s')
         );
